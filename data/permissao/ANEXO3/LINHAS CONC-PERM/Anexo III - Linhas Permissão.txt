@@ -1,0 +1,3 @@
+	EDITAL DE PERMISSÃO
+SERVIÇO DE TRANSPORTE COLETIVO PÚBLICO DE PASSAGEIROS DA CIDADE DE SÃO PAULO
+Este CD é parte integrante do Edital, Anexo III, contendo os mapas das Linhas e as bases georeferenciadas em formato MapInfo

@@ -1,0 +1,76 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 63
+    Endereco Char (60) ;
+    Bairro Char (16) ;
+    Bairro_old Char (30) ;
+    BAIRRO_E Char (50) ;
+    ID2 Integer ;
+    Length Float ;
+    Dir Smallint ;
+    Dist_ncia_Km Float ;
+    CodLog Char (7) ;
+    Tipo Char (10) ;
+    T_tulo Char (10) ;
+    Preposi_o Char (5) ;
+    Logradouro Char (50) ;
+    Apelido Char (65) ;
+    Inicial_Esquerda Integer ;
+    Inicial_Direita Integer ;
+    Final_Esquerda Integer ;
+    Final_Direita Integer ;
+    Flag Integer ;
+    CEP Char (8) ;
+    CEP_E Char (8) ;
+    Malha Integer ;
+    Pedestre Integer ;
+    Trilho Integer ;
+    No_Destino1 Integer ;
+    No_Origem1 Integer ;
+    NovoIniDireita Integer ;
+    NovoFimDireita Integer ;
+    NovoIniEsquerda Integer ;
+    NovoFimEsquerda Integer ;
+    Munic_pio Char (30) ;
+    Administradora Char (5) ;
+    Linha Char (3) ;
+    Nome Char (20) ;
+    TIPO_1 Char (254) ;
+    TITULO Char (10) ;
+    NAME Char (60) ;
+    OK Integer ;
+    CJ Integer ;
+    Classificacao Char (40) ;
+    Corrigido Char (1) ;
+    Dir_1 Integer ;
+    GEOID Integer ;
+    LEFT_ZIP Integer ;
+    Length_1 Float ;
+    Localiza_Direita Char (20) ;
+    Localiza_Esquerda Char (20) ;
+    ORIENTACAO Char (16) ;
+    PARITY Integer ;
+    PREP Char (10) ;
+    Problema Char (1) ;
+    QDF_D Char (16) ;
+    QDF_E Char (16) ;
+    RIGHT_ZIP Integer ;
+    SEG Char (16) ;
+    TAMA Float ;
+    TP_LIG Char (2) ;
+    Velocidade_Km_h Float ;
+    obs Char (2) ;
+    ANGULO Integer ;
+    Multiple_Fields_Label Char (68) ;
+    status Integer ;
+    LOGR_ACENT Char (50) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "91ab8680-571e-46cf-8bc1-7db07348e1f3"
+"\MapInfo\ParentTableID" = "c817b086-ecc0-47b8-8a03-679c19ce1ea1"
+end_metadata

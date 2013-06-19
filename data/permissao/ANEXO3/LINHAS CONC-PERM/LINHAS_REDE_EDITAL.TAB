@@ -1,0 +1,26 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 13
+    Codigo Char (7) Index 1 ;
+    Sentido Decimal (1, 0) ;
+    Nome Char (65) ;
+    LOTE Char (38) ;
+    Km_Sent Decimal (6, 2) ;
+    Km_Ret Decimal (6, 2) ;
+    DIA_DE_OPERAÇÃO Char (10) ;
+    FREQUÊNCIA__HP_ Integer ;
+    INTERVALO__MINUTOS_ Integer ;
+    TECNOLOGIA Char (74) ;
+    TIPO_DE_LINHA Char (6) ;
+    FROTA_2 Integer ;
+    REGISTROS Integer ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "955e3d4d-a6ed-4633-8513-00aa73ad7295"
+"\MapInfo\ParentTableID" = "d92ec726-274e-4fbc-a328-12c2f629e3d3"
+end_metadata
